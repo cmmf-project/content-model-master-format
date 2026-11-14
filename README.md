@@ -6,6 +6,8 @@
 
 # Content Model Master Format (CMMF)
 
+Canonical repository: [cmmf-project/content-model-master-format](https://github.com/cmmf-project/content-model-master-format).
+
 CMMF is a CMS-agnostic content modelling language for defining content structures, editorial intent, and translation-ready metadata in a portable format.
 
 This repository contains the current 1.2.1 specification, reference documentation, a JSON Schema validator, and example model files.
