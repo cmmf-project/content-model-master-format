@@ -7,9 +7,9 @@ there is no second feature flag or 1.2 fallback inside the beta.
 
 ## RFC and Implementation
 
-This beta implements [RFC #1: document-level validation hints](https://github.com/headless-company/content-model-master-format/issues/1).
+This beta implements [RFC #1: document-level validation hints](https://github.com/cmmf-project/content-model-master-format/issues/1).
 The implementation was introduced in commit
-[`a0c7a3d`](https://github.com/headless-company/content-model-master-format/commit/a0c7a3d87fe46d74b5e78ac851e8b156201376a4).
+[`a0c7a3d`](https://github.com/cmmf-project/content-model-master-format/commit/a0c7a3d87fe46d74b5e78ac851e8b156201376a4).
 The beta specification resolves the RFC's open questions: hint IDs are required,
 structured and expression forms cannot share a hint, and translation dispositions
 must identify both model and hint with a reason. The normative beta documents
@@ -31,9 +31,9 @@ modelsPath: ./models
 
 Version-pinned resources:
 
-- [Model schema](https://raw.githubusercontent.com/headless-company/content-model-master-format/v1.3.0-beta.1/schemas/model.schema.json)
-- [Specification](https://github.com/headless-company/content-model-master-format/blob/v1.3.0-beta.1/spec/cmmf-v1.3.0-beta.1.md)
-- [Translation contract](https://github.com/headless-company/content-model-master-format/blob/v1.3.0-beta.1/spec/translation-contract-v1.3.0-beta.1.md)
+- [Model schema](https://raw.githubusercontent.com/cmmf-project/content-model-master-format/v1.3.0-beta.1/schemas/model.schema.json)
+- [Specification](https://github.com/cmmf-project/content-model-master-format/blob/v1.3.0-beta.1/spec/cmmf-v1.3.0-beta.1.md)
+- [Translation contract](https://github.com/cmmf-project/content-model-master-format/blob/v1.3.0-beta.1/spec/translation-contract-v1.3.0-beta.1.md)
 
 Consumers requesting this beta must load its schema and specification together.
 Do not validate a beta manifest using the 1.2 schema: that schema allows unknown
