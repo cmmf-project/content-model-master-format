@@ -13,8 +13,8 @@ model-level `validationHints` for conditional and cross-field intent. The defaul
 specification, documentation, JSON Schema, checker, and examples all target this beta.
 
 **The canonical stable version remains 1.2.1.** Use
-[the stable release](https://github.com/headless-company/content-model-master-format/releases/tag/v1.2.1)
-or [`main`](https://github.com/headless-company/content-model-master-format/tree/main)
+[the stable release](https://github.com/cmmf-project/content-model-master-format/releases/tag/v1.2.1)
+or [`main`](https://github.com/cmmf-project/content-model-master-format/tree/main)
 for stable material. This feature branch is not merged into `main`.
 
 ## Start Here
@@ -37,7 +37,7 @@ to test it.
 ## Try the Beta
 
 ```sh
-git clone --branch v1.3.0-beta.1 https://github.com/headless-company/content-model-master-format.git
+git clone --branch v1.3.0-beta.1 https://github.com/cmmf-project/content-model-master-format.git
 cd content-model-master-format
 npm ci
 npm run check
